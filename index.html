@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="南島原市を中心に、空き家の売却・賃貸・活用についてご相談いただけます。株式会社シロタニ「空き家の窓口」。">
+  <meta name="theme-color" content="#155c43">
+  <title>空き家の窓口｜その空き家、どうする？｜株式会社シロタニ</title>
+  <style>
+    :root{--green:#155c43;--green2:#26775a;--cream:#f7f5ee;--ink:#202820;--muted:#647067;--gold:#d8a93e;--white:#fff}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;line-height:1.8;background:#fff}
+    a{color:inherit}
+    .wrap{width:min(1120px,92%);margin:auto}
+    header{background:#fff;border-bottom:1px solid #e8e9e3;position:sticky;top:0;z-index:10}
+    .nav{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{font-weight:900;text-decoration:none;font-size:1.22rem;line-height:1.25;color:var(--green)}
+    .brand small{display:block;font-size:.68rem;letter-spacing:.12em;color:#555;font-weight:600}
+    nav{display:flex;align-items:center;gap:18px;font-size:.88rem}
+    nav a{text-decoration:none}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;background:var(--green);color:#fff;text-decoration:none;border-radius:999px;padding:13px 22px;font-weight:800;border:2px solid var(--green);transition:.2s}
+    .btn:hover{background:var(--green2);border-color:var(--green2);transform:translateY(-1px)}
+    .btn.light{background:#fff;color:var(--green)}
+    .hero{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(90deg,rgba(12,40,29,.76),rgba(12,40,29,.25)),url('after-office.jpeg') center/cover;color:#fff}
+    .hero:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.24),transparent 55%);z-index:-1}
+    .hero-inner{padding:92px 0 100px;max-width:760px}
+    .eyebrow{font-size:.82rem;font-weight:800;letter-spacing:.16em;color:#f3d47d}
+    h1{font-size:clamp(2.3rem,6vw,4.8rem);line-height:1.25;letter-spacing:.04em;margin:.25em 0}
+    .hero p{font-size:clamp(1rem,2vw,1.25rem);max-width:620px}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    section{padding:76px 0}
+    .section-head{text-align:center;margin:0 auto 36px;max-width:720px}
+    .section-head .eyebrow{color:var(--green2)}
+    h2{font-size:clamp(1.7rem,4vw,2.6rem);line-height:1.35;margin:.3em 0}
+    .lead{color:var(--muted)}
+    .cream{background:var(--cream)}
+    .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .card{background:#fff;border:1px solid #e8e8df;border-radius:18px;padding:24px 20px;box-shadow:0 8px 24px rgba(20,40,25,.04)}
+    .card .icon{font-size:2rem}
+    .card h3{margin:.4em 0;font-size:1.12rem}
+    .card p{font-size:.94rem;color:var(--muted);margin:0}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+    .photo{min-height:340px;border-radius:22px;background:url('after-office.jpeg') center/cover}
+    .checks{padding:0;list-style:none}
+    .checks li{margin:12px 0;padding-left:30px;position:relative}
+    .checks li:before{content:"✓";position:absolute;left:0;color:var(--green2);font-weight:900}
+    .video-band{background:#122d23;color:#fff}
+    .video-box{border:1px solid rgba(255,255,255,.25);border-radius:20px;padding:30px;background:linear-gradient(120deg,rgba(13,40,28,.94),rgba(13,40,28,.7)),url('after-office.jpeg') center/cover}
+    .area{background:#edf4ef}
+    .area-pill{display:inline-block;border:1px solid #c4d8cb;background:#fff;padding:8px 14px;border-radius:999px;margin:5px;font-size:.9rem}
+    .contact{background:linear-gradient(120deg,#155c43,#26775a);color:#fff;text-align:center}
+    .contact .lead{color:#e0eee6}
+    .contact-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:24px}
+    .small{font-size:.83rem;color:var(--muted)}
+    footer{padding:28px 0;background:#10291f;color:#eaf2ec;font-size:.85rem}
+    footer .foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    .notice{font-size:.8rem;color:var(--muted);background:#fff8df;padding:14px 16px;border-radius:12px;margin-top:22px}
+    @media(max-width:850px){nav{display:none}.cards{grid-template-columns:repeat(2,1fr)}.two-col{grid-template-columns:1fr;gap:28px}.photo{min-height:260px}.hero-inner{padding:70px 0 76px}}
+    @media(max-width:520px){.cards{grid-template-columns:1fr}.card{padding:20px}.hero-actions .btn{width:100%}section{padding:56px 0}.nav{min-height:64px}.hero{background-position:58% center}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top">⌂ 空き家の窓口<small>株式会社シロタニ</small></a>
+    <nav aria-label="メインナビゲーション">
+      <a href="#services">サービス</a><a href="#about">私たちについて</a><a href="#area">対応エリア</a><a href="#contact">お問い合わせ</a>
+    </nav>
+    <a class="btn" href="#contact">空き家を相談する</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="eyebrow">南島原市を中心に、空き家のお悩みをサポート</div>
+      <h1>その空き家、<br>どうする？</h1>
+      <p>売りたい。貸したい。活用したい。<br>使っていない家のこと、ひとりで悩まずご相談ください。</p>
+      <div class="hero-actions">
+        <a class="btn" href="#contact">空き家の相談はこちら →</a>
+        <a class="btn light" href="#services">できることを見る</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="cream">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">HOW WE CAN HELP</div>
+        <h2>こんなお悩みありませんか？</h2>
+        <p class="lead">状況がまとまっていなくても大丈夫。まずは現在のお困りごとをお聞かせください。</p>
+      </div>
+      <div class="cards">
+        <article class="card"><div class="icon">🏠</div><h3>空き家を売りたい</h3><p>相続した家、住む予定のない家など、売却についてご相談いただけます。</p></article>
+        <article class="card"><div class="icon">🔑</div><h3>空き家を貸したい</h3><p>賃貸として活用できるか、家の状態も踏まえて一緒に考えます。</p></article>
+        <article class="card"><div class="icon">🛠️</div><h3>活用方法がわからない</h3><p>修繕して使う、貸す、売る。家ごとの選択肢を整理します。</p></article>
+        <article class="card"><div class="icon">📦</div><h3>片付けや修繕が心配</h3><p>残置物や古い設備など、次の一歩に向けて必要なことを整理します。</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap two-col">
+      <div class="photo" role="img" aria-label="古い住宅のイメージ写真"></div>
+      <div>
+        <div class="eyebrow" style="color:var(--green2)">ABOUT US</div>
+        <h2>空き家を、地域のこれからにつなぐ。</h2>
+        <p>株式会社シロタニの「空き家の窓口」は、南島原市を中心に、空き家の売却・賃貸・活用について一緒に考える相談窓口です。</p>
+        <p>私たちは、古い家を自分たちの手で再生する取り組みをYouTube「シロタニTV」でも発信しています。現場で培った経験を活かし、それぞれの家に合った選択肢を考えます。</p>
+        <ul class="checks">
+          <li>地域の事情に合わせた相談</li>
+          <li>古い家・修繕が必要な家もまずはご相談</li>
+          <li>売却・賃貸・活用の方向性を整理</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="video-band">
+    <div class="wrap">
+      <div class="video-box">
+        <div class="eyebrow">REAL RENOVATION STORY</div>
+        <h2>古い家が、生まれ変わる。<br>シロタニTV</h2>
+        <p>空き家再生のリアルな様子を動画で発信しています。私たちの取り組みをぜひご覧ください。</p>
+        <!-- TODO: 下のURLをシロタニTVの正しいチャンネルURLに置き換えてください -->
+        <a class="btn light" href="https://youtube.com/@shirotani.d?si=BEBOvxOIcYpxQZCS" target="_blank" rel="noopener">YouTubeを見る ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="area" class="area">
+    <div class="wrap two-col">
+      <div>
+        <div class="eyebrow" style="color:var(--green2)">SERVICE AREA</div>
+        <h2>南島原市を中心に対応します。</h2>
+        <p>空き家の場所や状態、現在のお困りごとをお聞きし、対応できる内容を確認します。</p>
+        <div><span class="area-pill">南島原市中心</span><span class="area-pill">周辺地域はご相談ください</span></div>
+      </div>
+      <div class="card">
+        <h3>こんな状態でもご相談ください</h3>
+        <ul class="checks">
+          <li>長年、空き家のままになっている</li>
+          <li>遠方に住んでいて管理できない</li>
+          <li>荷物が残っていて手をつけられない</li>
+          <li>売るか貸すか決められない</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <div class="eyebrow">CONTACT</div>
+      <h2>まずは、お気軽にご相談ください。</h2>
+      <p class="lead">「何から始めればいいかわからない」という段階でも大丈夫です。</p>
+      <div class="contact-actions">
+        <!-- TODO: LINE公式アカウントのURLを設定してください -->
+        <a class="btn light" href="https://lin.ee/VGGBqvy" target="_blank" rel="noopener">LINEで相談する ↗</a>
+        <!-- TODO: 公開前に実際の電話番号を入れてください -->
+        <a class="btn light" href="tel:0957828415">電話で相談する：0957-82-8415</a>
+      </div>
+      <p class="small" style="color:#e0eee6;margin-top:18px">株式会社シロタニ｜空き家の窓口</p>
+      <div class="notice" style="text-align:left;color:#554a25"><strong>公開前に必ず確認：</strong>掲載写真は南島原市内の実在物件・地域の写真を仮採用していますが、写真の著作権・転載許可は未確認です。公開前に権利者の許可を得るか、株式会社シロタニで撮影した写真に差し替えてください。会社所在地・営業時間・宅建業免許番号など掲載する会社情報も確認してください。</div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div><strong>空き家の窓口｜株式会社シロタニ</strong><br>その空き家、どうする？</div>
+    <div>南島原市を中心に、空き家の売却・賃貸・活用をサポート</div>
+    <div>© 株式会社シロタニ</div>
+  </div>
+</footer>
+</body>
+</html>
